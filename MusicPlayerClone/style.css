@@ -1,0 +1,80 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Poppins", sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.brand {
+  font-weight: bolder;
+}
+.container {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 70%;
+  border-radius: 12px;
+  margin: 23px auto;
+  padding: 14px;
+  background-image: url("img1.png");
+  opacity: 0.9;
+}
+.bottom {
+  position: sticky;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icons {
+  margin: 14px;
+}
+.icons i {
+  cursor: pointer;
+}
+#myprogresssbar {
+  width: 80vw;
+  cursor: pointer;
+}
+.songitemcontainer {
+  margin-top: 26px;
+}
+.songitem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+.songitem img {
+  width: 50px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+.timestamp {
+  margin: 0 23px;
+}
+.timestamp i {
+  cursor: pointer;
+}
